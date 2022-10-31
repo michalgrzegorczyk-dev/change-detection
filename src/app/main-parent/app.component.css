@@ -1,0 +1,21 @@
+app-child1, app-child2 {
+  display: block;
+}
+
+
+:host {
+  border: 1px solid black;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+app-child1 {
+  margin-bottom: 30px;
+}
+
+
+button {
+  margin-bottom: 50px;
+}
